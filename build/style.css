@@ -1,0 +1,169 @@
+<<<<<<< HEAD
+body{
+	background-color: #111111;
+=======
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #111111;
+	overflow-y:hidden;
+}
+#app{
+	overflow-y:hidden;
+	width: 100%;
+>>>>>>> addaptive for phone
+}
+#list{
+	width: 20%;
+	float: left;
+	height: 700px;
+	overflow: auto;
+<<<<<<< HEAD
+=======
+	border-right: solid 2px #ff9a9a;
+	left: 0px;
+	transition-property: left;
+	transition-duration: 0.3s;
+
+}
+#list-visible{
+	width: 20%;
+	float: left;
+	height: 700px;
+	overflow: auto;
+	border-right: solid 2px #ff9a9a;
+	left: 0px;
+	transition-property: left;
+	transition-duration: 0.3s;
+
+>>>>>>> addaptive for phone
+}
+#content{
+	width: 78%;
+	float: left;
+	height: 700px;
+<<<<<<< HEAD
+	border-left: solid 2px #ff9a9a;
+=======
+	margin: 0px;
+	
+>>>>>>> addaptive for phone
+
+}
+.contentHead{
+	font-size: 40px;
+<<<<<<< HEAD
+	width: 100%;
+=======
+	width: 90%;
+>>>>>>> addaptive for phone
+	display: block;
+	outline:none;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	color: #dddddd;
+	margin-left: 20px;
+}
+.contentText{
+	font-size: 15px;
+<<<<<<< HEAD
+	width: 100%;
+=======
+	width: 90%;
+>>>>>>> addaptive for phone
+	outline:none;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	display: block;
+	height: 500px;
+	color: #dddddd;
+<<<<<<< HEAD
+=======
+	margin: 0;
+>>>>>>> addaptive for phone
+	margin-left: 20px;
+}
+#search input{
+	width: 60%;
+	height: 25px;
+	margin-left: 10%;
+	margin-top: 10px;
+	outline:none;
+	background-color: #202020;
+	border: none;
+	border-bottom: solid 2px #ff9a9a;
+	color:  #dddddd;
+	font-family: 'PT Sans', sans-serif;
+}
+#search button{
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #555555;
+}
+#addnote button{
+		color: #ff9a9a;
+		width:50px;
+		height: 50px;
+		margin: 15px;
+		margin-left: 40%;
+		border-radius:50px;
+		border: none;
+		font-size: 20px;
+		outline:none;
+		border: solid 2px #ff9a9a;
+		background-color: rgba(0, 0, 0, 0);
+<<<<<<< HEAD
+=======
+		
+>>>>>>> addaptive for phone
+}
+#addnote button:hover{
+	background-color: rgba(225, 225, 225, 0.1);
+}
+.note{
+	overflow: hidden;
+	height: 50px;
+	margin-bottom: 15px;
+	border-left: solid 2px #ff9a9a;
+	color: #dddddd;
+	padding: 5px;
+	font-family: 'PT Sans', sans-serif;
+}
+.note div{
+	margin-bottom: 10px;
+}
+.note .head{
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight:bold;
+	font-family: 'PT Sans', sans-serif;
+}
+.note:hover{
+	background-color: rgba(225, 225, 225, 0.1);
+}
+::-webkit-scrollbar{
+    width:2px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ff9a9a;
+
+<<<<<<< HEAD
+=======
+}
+@media screen and (max-width: 700px){
+	#list {
+		position: absolute;
+		left: -700px;
+		width: 100%;	
+	}
+	#list-visible{
+		position: absolute;
+		left: 0px;
+		width: 100%;
+	}
+>>>>>>> addaptive for phone
+}
