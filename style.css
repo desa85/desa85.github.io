@@ -51,7 +51,6 @@ body{
 	border: none;
 	background-color: rgba(0, 0, 0, 0);
 	color: #dddddd;
-	background-color: pink;
 	padding-left: 20px;
 }
 #contentText{
@@ -64,7 +63,6 @@ body{
 	height: 500px;
 	color: #dddddd;
 	margin: 0;
-	background-color: green;
 	padding-left: 20px;
 }
 #search input{
