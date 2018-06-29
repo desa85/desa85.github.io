@@ -1,148 +1,83 @@
-*{
-	padding: 0;
-	margin: 0;
-}
 body{
-	background-color: #111111;
-	overflow-y:hidden;
-}
-#app{
-	overflow-y:hidden;
-	width: 100%;
-}
-#list{
-	width: 20%;
-	float: left;
-	height: 700px;
-	overflow: auto;
-	border-right: solid 2px #ff9a9a;
-	left: 0px;
-	transition-property: left;
-	transition-duration: 0.3s;
+	background-color: #fafafa;
 
 }
-#list-visible{
-	width: 20%;
-	float: left;
-	height: 700px;
-	overflow: auto;
-	border-right: solid 2px #ff9a9a;
-	left: 0px;
-	transition-property: left;
-	transition-duration: 0.3s;
-
+ul{
+	padding: none;
 }
-#content{
-	width: 78%;
-	float: left;
-	height: 700px;
-	margin: 0px;
-	font-size: 60px;
-	color: white;
-
-	
-
+li{
+	list-style-type: none;
 }
-#contentHead{
-	font-size: 40px;
-	width: 100%;
-	display: block;
-	outline:none;
-	border: none;
-	background-color: rgba(0, 0, 0, 0);
-	color: #dddddd;
-	padding-left: 20px;
+#checkIn{
+	background-color: #fff;
+	border: solid 1px #ededed;
+	width: 350px;
 }
-#contentText{
+#checkIn input{
+	display: table;
+	background-color: #fafafa;
+	height: 30px;
+	border: solid 1px #f3f3f3;
+	margin: auto;
+	margin-bottom: 5px;
+	border-radius: 2px;
+	width: 85%;
+}
+#checkIn input::placeholder{
+	color: #b0b0b0;
 	font-size: 15px;
-	width: 100%;
-	outline:none;
+	position: relative;
+	right: -10px;
+}
+#checkIn button{
+	display: table;
+	background-color: #3897f0;
+	height: 500;
 	border: none;
-	background-color: rgba(0, 0, 0, 0);
-	display: block;
-	height: 500px;
-	color: #dddddd;
-	margin: 0;
-	padding-left: 20px;
-}
-#search input{
-	width: 60%;
-	height: 25px;
-	margin-left: 10%;
+	color: #fff;
+	border-radius: 2px;
 	margin-top: 10px;
-	outline:none;
-	background-color: #202020;
-	border: none;
-	border-bottom: solid 2px #ff9a9a;
-	color:  #dddddd;
-	font-family: 'PT Sans', sans-serif;
-}
-#search button{
-	width: 25px;
-	height: 25px;
-	margin-left: 10px;
-	margin-top: 10px;
-	background-color: #555555;
-}
-#addnote button{
-		color: #ff9a9a;
-		width:50px;
-		height: 50px;
-		margin: 15px;
-		margin-left: 40%;
-		border-radius:50px;
-		border: none;
-		font-size: 20px;
-		outline:none;
-		border: solid 2px #ff9a9a;
-		background-color: rgba(0, 0, 0, 0);
-		
-}
-#addnote button:hover{
-	background-color: rgba(225, 225, 225, 0.1);
-}
-.note{
-	overflow: hidden;
-	height: 50px;
-	margin-bottom: 15px;
-	border-left: solid 2px #ff9a9a;
-	color: #dddddd;
-	padding: 5px;
-	font-family: 'PT Sans', sans-serif;
-}
-.note div{
 	margin-bottom: 10px;
 }
-.note .head{
-	margin-bottom: 5px;
-	font-size: 20px;
-	font-weight:bold;
-	font-family: 'PT Sans', sans-serif;
+.lines{
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
-.note:hover{
-	background-color: rgba(225, 225, 225, 0.1);
-}
-::-webkit-scrollbar{
-    width:2px;
-}
-::-webkit-scrollbar-thumb{
-    background-color: #ff9a9a;
+.line{
+	width: 40%;
+	background-color: #fafafa;
+	display: inline-block;
+	padding-top: 1px; 
+	position: relative;
+	top: 15px;
 
 }
-@media screen and (max-width: 700px){
-	#list {
-		position: absolute;
-		left: -700px;
-		width: 100%;	
-		background-color: #111111;
-	}
-	#list-visible{
-		position: absolute;
-		left: 0px;
-		width: 100%;
-		background-color: #111111;
-	}
-	#content{
-		width: 100%;
-	}
+.line-Word{
+	margin: 5px;
+}
+#users{
+	background-color: #fff;
+	width: 350px;
+	border: solid 1px #ededed;
+}
+#users ul{
+	padding-left: 0px;
+}
+#users li{
+	border-bottom: solid 1px #ededed;
+	height: 25px;
+}
+#UserName{
+	font-size: 5em;
+}
+@media (max-width: 450px){
+	#checkIn{
+	background-color: #fafafa;
+	border: none;
+	width: 100%;
+}
+#users{
+	background-color: #fafafa;
+	width: 100%;
+	border: none;
 }
